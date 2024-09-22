@@ -21,31 +21,7 @@ Before running the project, make sure you have the following installed:
    cd TRT-Exam
 
 ## env config
-Use This as the Demo data for .env, it is not the best practice to show sensitive data but for this demo it will be ignored
-
-APP_NAME=TRT
-APP_ENV=local
-APP_KEY=base64:M38+BE6zvYoVp89m5YmdcTlr6HZ9134LxUuDBN5IVJc=
-APP_DEBUG=true
-APP_URL=http://localhost
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=trtexam
-DB_USERNAME=root
-DB_PASSWORD=
-
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.gmail.com
-MAIL_PORT=465
-MAIL_USERNAME=arjie.vicuna@gmail.com
-MAIL_PASSWORD=unixrobucbxdopsl
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=arjie.vicuna@gmail.com
-MAIL_FROM_NAME="${APP_NAME}"
-
-GOOGLE_API_KEY=AIzaSyByW_D3gVqTjImLe69HbTuq26gf0jQ8qsU
+Use This as the Demo data for .env in .env-example, it is not the best practice to show sensitive data but for this demo it will be ignored, since it is a disposable api
 
 ## Migration of the file
  To easilty create database and migrate the file it has already made a command to run both function at the same the
